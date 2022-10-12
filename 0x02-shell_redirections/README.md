@@ -26,13 +26,33 @@
 
 **12-newest_files:** this script displays the 10 newest files in the current directory from newest to the oldest in new line
 
-`**13-print_float:** this script prints the variable `NUM `with two decimal places and a new line.
+**13-unique:** this script takes a list of words as input and prints only words that appear exactly once.
 
-**100-decimal_to_hexadecimal:** this script converts the variable `DECIMAL `from base10 to base16.
+**14-findthatword:** this script displays lines containing the pattern “root” from the file `/etc/passwd`
 
-**101-rot13:** this script encodes and decodes text using the rot13 encryption. Assume ASCII.
+**15-countthatword:** this script displays the number of lines that contain the pattern “bin” in the file `/etc/passwd`
 
-**102-odd:** this script that prints all lines, except lines that start with odd numbers.
+**16-whatsnext:** this script displays lines containing the pattern “root” and 3 lines after them in the file `/etc/passwd`.
 
- **103-water_and_stir:** this script adds two numbers stored in the environmental variables `WATER ` base `water ` and `STIR `base `stir.` and prints the result, the result is in base `bestchol`
+ **17-hidethisword:** this script displays all the lines in the file `/etc/passwd` that do not contain the pattern “bin”.
+ 
+ **18-letteronly:** this script displays all lines of the file `/etc/ssh/sshd_config` starting with a letter.
+
+**19-AZ:** this script replaces all characters`A` and `c` from input to `Z` and `e` respectively.
+
+**20-hiago:** this script removes all letters `c` and `C` from input.
+
+**21-reverse:** this script reverses its input.
+
+**22-users_and_homes:** this script  displays all users and their home directories, sorted by users. Based on the the `/etc/passwd` file
+
+**100-empty_casks:** this script has a command that finds all empty files and directories in the current directory and all sub-directories.
+
+**101-gifs:** this script lists all the files with a `.gif` extension in the current directory and all its sub-directories.
+
+**102-acrostic:** this script decodes acrostics that use the first letter of each line.
+
+**103-the_biggest_fan:** this script parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
+
+
 
