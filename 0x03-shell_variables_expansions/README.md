@@ -18,7 +18,7 @@
 
 **8-true_knowledge:** this script adds 128 to the value stored in variable `TRUEKNOWLEDGE `
 
-**9-divide_and_rule:** this script prints the result of  variable POWER divided by the variable DIVIDE
+**9-divide_and_rule:** this script prints the result of  variable `POWER` divided by the variable `DIVIDE`
 
 **10-love_exponent_breath:** this script display the result of variable `BREATH `to the power variable `LOVE`
 
