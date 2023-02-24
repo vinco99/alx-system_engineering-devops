@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Displays the name of files in the current dir using for loop
+for f in *; do
+	echo "$f" | cut -d '-' -f 2
+done
