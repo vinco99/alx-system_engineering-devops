@@ -1,12 +1,10 @@
 #!/usr/bin/env bash
-
 #Prints Best School 10 times using until loop
-#Using variable $i
 
 i=0
 
 until [[ $i -eq 10 ]]
 do
 	echo "Best School"
-	((i++))
+	(( i++ ))
 done

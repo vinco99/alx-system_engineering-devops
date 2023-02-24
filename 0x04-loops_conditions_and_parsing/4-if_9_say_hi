@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
+#Prnts 'Hi' on 9th iteration and 'Best School' in the rest
 
 index=0
 
-while [ $index -lt 10 ];
+while [ $index -lt 10 ]
 do
 	if [ $index -eq 8 ]
 	then
 		echo "Hi"
 	fi
 	echo "Best School"
-	((index++))
+	(( index++ ))
 done
