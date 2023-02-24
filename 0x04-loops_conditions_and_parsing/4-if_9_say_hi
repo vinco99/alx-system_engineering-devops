@@ -3,10 +3,10 @@
 index=0
 while [ $index -lt 10 ]
 do
+	echo "Best School"
 	if [ $index -eq 8 ]
 	then
 		echo "Hi"
 	fi
-	echo "Best School"
 	(( index++ ))
 done
