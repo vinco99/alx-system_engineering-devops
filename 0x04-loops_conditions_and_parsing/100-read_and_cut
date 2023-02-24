@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#Displays the content of a file '/etc/passwd'
+#The content 'username', 'user id' and Home directory path
+while read -r line; do
+	echo "$line" | cut -d ':' -f 1,2,6
+done</etc/passwd
