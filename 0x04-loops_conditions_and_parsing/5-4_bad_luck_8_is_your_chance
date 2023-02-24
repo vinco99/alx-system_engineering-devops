@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 #Prints 'bad luck' on the 4 iteration, 'good luck' on the 8 iteration then 'Best School'
-
 index=0
-
 while [ $index -lt 10 ]
 do
 	if [ $index -eq 3 ]
